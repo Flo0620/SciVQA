@@ -12,3 +12,5 @@ This Repository was created in the context of the SciVQA shared task.
    This folder contains the code to filter the ArXivQA and SpiQA datasets and to convert them to be combined with the SciVQA dataset.
 6. Manual Evaluation
    This contains the code for the manual annotation of the generated answers.
+7. Prompts
+   This folder contains the prompt templates that were tested. The finally used ones are ```sys_prompt_11.txt``` as the system prompt and ```version_v7.j2``` in the zero-shot setting and ```version_v10.j2``` in the one-shot setting. In the one-shot setting ```few_shot_v1.j2``` fills the few shot variable field of the ```version_v10.j2``` template.
